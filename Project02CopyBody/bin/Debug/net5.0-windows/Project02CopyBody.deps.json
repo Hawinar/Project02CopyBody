@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Project02CopyBody/1.0.0": {
+        "dependencies": {
+          "Project02TestModule": "1.0.0.0"
+        },
+        "runtime": {
+          "Project02CopyBody.dll": {}
+        }
+      },
+      "Project02TestModule/1.0.0.0": {
+        "runtime": {
+          "Project02TestModule.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project02CopyBody/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Project02TestModule/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
